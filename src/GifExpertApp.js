@@ -15,7 +15,10 @@ export const GifExpertApp = () => {
     
     return (
         <>
-            <h2>GifExpert App</h2> <a href='https://www.facebook.com/profile.php?id=100013541311546' className='credito'>por: Francisco M. Charris C.</a>
+            <div className='head' >
+                <h2>GifExpert App</h2> 
+                <a href='https://www.facebook.com/profile.php?id=100013541311546' className='credito'>por: Francisco M. Charris C.</a>
+            </div>
             <AddCategory setCategories={setCategories} />
             <hr />
 

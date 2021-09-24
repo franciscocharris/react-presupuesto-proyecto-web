@@ -65,3 +65,26 @@ input{
   cursor:pointer;
   text-transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+  .head{
+    text-align: center;
+  }
+  .head h2{
+    margin: 1rem auto;
+  }
+   body{
+    padding: .5rem;
+    border: 1rem solid black;
+    margin: 0;
+    min-height: 100vh;
+   }
+
+   ol{
+     padding: 0;
+   }
+
+   input{
+     font-size: 1rem;
+   }
+}

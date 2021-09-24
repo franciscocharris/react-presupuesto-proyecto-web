@@ -21,6 +21,7 @@ export const AddCategory = ({setCategories}) => {
         <form onSubmit={handleSubmit} >
             <input 
                 type='text'
+                placeholder='Buscar Gifs'
                 value={inputValue}
                 // el onchange se dispara cada vez que cambien el valor del input
                 onChange={ handleInputChange }
