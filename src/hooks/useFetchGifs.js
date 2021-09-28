@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { getGifs } from "../helpers/getGifs";
 
 // l adiferencia de un custom hook de un functional component, es que ambos son funciones, pero el hook
+// no nesesariamemnte retorna jsx
 export const useFetchGifs = (category) => {
 
     const [state, setState] = useState({

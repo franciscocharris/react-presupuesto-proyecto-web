@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en el componentye padre GifExpertApp debe coincidir con la fotografia 1`] = `
+<Fragment>
+  <div
+    className="head"
+  >
+    <h1>
+      GifExpert App
+    </h1>
+    <a
+      className="credito"
+      href="https://www.facebook.com/profile.php?id=100013541311546"
+    >
+      por: Francisco M. Charris C.
+    </a>
+  </div>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;

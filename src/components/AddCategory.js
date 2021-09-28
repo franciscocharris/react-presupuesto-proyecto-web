@@ -11,14 +11,18 @@ export const AddCategory = ({setCategories}) => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if(inputValue.trim().length > 0){
+            // console.log(`handleSubmit`, inputValue);
             // al llamar a una funcion de un hook, traera los valores si se trata como un callback
             // aqui se esta llenando el array de los gifs que se van a cargar
-            setCategories( cat => [inputValue, ...cat] );   
+            setCategories( cat => [inputValue, ...cat] ); 
+            setInputValue('');  
         }
     }
 
     return (
         <form onSubmit={handleSubmit} >
+            {/* solo prueba */}
+            <p>{ inputValue }</p>
             <input 
                 type='text'
                 placeholder='Buscar Gifs'
