@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <ListasGastos/> debe de renderrizar bien 1`] = `
+<div
+  className="gastos-realizados"
+>
+  <h2>
+    Listado
+  </h2>
+  <ItemGasto
+    gasto={
+      Object {
+        "cantidad": 100,
+        "id": 1,
+        "nombre": "pp",
+      }
+    }
+    key="1"
+  />
+  <ItemGasto
+    gasto={
+      Object {
+        "cantidad": "120202",
+        "id": 2,
+        "nombre": "papa",
+      }
+    }
+    key="2"
+  />
+</div>
+`;

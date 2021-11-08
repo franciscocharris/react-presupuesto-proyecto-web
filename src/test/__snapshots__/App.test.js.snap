@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en el componente padre App debe de renderizarse bien 1`] = `
+<div
+  className="container"
+>
+  <header>
+    <h1>
+      Gasto Semanal
+    </h1>
+    <a
+      className="credito"
+      href="https://www.facebook.com/profile.php?id=100013541311546"
+      rel="noreferrer"
+      target="_blank"
+    >
+       - por: Francisco M. Charris C. -
+    </a>
+    <div
+      className="contenido-principal contenido"
+    >
+      <Pregunta
+        setPresupuesto={[Function]}
+        setRestante={[Function]}
+        setShowPregunta={[Function]}
+      />
+    </div>
+  </header>
+</div>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en el componente <ItemGasto/> debe de coinidir con el snapshot 1`] = `
+<li
+  className="gastos"
+>
+  <p>
+    pp
+    <span
+      className="gasto"
+    >
+      $
+      100
+    </span>
+  </p>
+</li>
+`;

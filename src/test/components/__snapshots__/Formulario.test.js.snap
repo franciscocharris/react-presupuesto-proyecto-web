@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en el componente Formulario debe  de coincidir con el snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h2>
+    Agrega tus gastos aqui
+  </h2>
+  <div
+    className="campo"
+  >
+    <label>
+      Nombre del Gasto
+    </label>
+    <input
+      className="u-full-width"
+      name="nombre"
+      onChange={[Function]}
+      placeholder="ej: Transporte"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="campo"
+  >
+    <label>
+      Cantidad del Gasto
+    </label>
+    <input
+      className="u-full-width"
+      name="cantidad"
+      onChange={[Function]}
+      placeholder="ej: 270"
+      type="number"
+      value=""
+    />
+  </div>
+  <input
+    className="button-primary u-full-width"
+    type="submit"
+    value="Agregar Gasto"
+  />
+</form>
+`;
